@@ -1,0 +1,47 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 5px;
+  flex-direction: column;
+}
+
+.banner {
+  padding-bottom: 5px;
+}
+.banner img {
+  width: 100%;
+}
+.banner h1 {
+  text-align: center;
+}
+
+.containerForm {
+  padding-top: 5px;
+}
+form {
+  width: 50%;
+  margin: auto;
+}
+form legend {
+  text-align: center;
+}
+.cardBtn {
+  display: flex;
+  justify-content: center;
+}
+
+table tr td {
+  text-align: center;
+}
+.table h1 {
+  text-align: center;
+}
